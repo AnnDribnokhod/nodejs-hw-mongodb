@@ -6,11 +6,10 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/**/*.js",
-    "start": "node ./src/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "Alexander Repeta <a.repeta@goit.global>",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.2.0",

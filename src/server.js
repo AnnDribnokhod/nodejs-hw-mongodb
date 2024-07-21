@@ -17,6 +17,7 @@ function setupServer() {
   app.use(cors());
   app.use(express.json());
   app.use(pinoHttp({ logger }));
+
   app.get('/contacts', async (req, res) => {
     try {
       const contacts = await Contact.find();
